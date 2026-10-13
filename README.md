@@ -17,6 +17,22 @@
 
 ---
 
+## 📸 效果展示
+
+**① 应用首页**
+
+![应用首页](docs/images/home.png)
+
+**② 一次问答（含答案来源溯源）**
+
+![问答效果](docs/images/chat.png)
+
+**③ 内置自动化测评（RAGAS 指标体系）**
+
+![自动化测评](docs/images/eval.png)
+
+---
+
 ## ✨ 核心亮点（和普通 RAG 的不同）
 
 | 普通 RAG | RAG Campus Assistant |
@@ -129,6 +145,12 @@ npm start
 | 防幻觉 | 正确拒答率 | **100%**（10/10） |
 
 > 系统在知识库未覆盖时**如实回答"未找到"而非编造**——这是它最看重的"底线"。
+
+---
+
+## 📝 技术文章
+
+- [RAG校园助手：让校园信息"一问即得"（OpenLab 参赛作品说明）](https://openlab.cosmoplat.com/article-detils?id=37526&articleType=0)
 
 ---
 
