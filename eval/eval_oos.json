@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "description": "超纲题（防幻觉）测试集：这些问题的答案均不在 data/ 的 11 份文档中，用于检验系统在'该说不知道时'是否老实拒答。expect=refuse 表示正确行为是拒答。",
+  "testset": [
+    { "id": "oos01", "question": "学校有没有电竞社团？", "expect": "refuse", "category": "超纲（知识库无）" },
+    { "id": "oos02", "question": "校长叫什么名字？", "expect": "refuse", "category": "超纲（知识库无）" },
+    { "id": "oos03", "question": "图书馆馆长是谁？", "expect": "refuse", "category": "超纲（知识库无）" },
+    { "id": "oos04", "question": "学校食堂的招牌菜用的是哪个牌子的食用油？", "expect": "refuse", "category": "超纲（知识库无）" },
+    { "id": "oos05", "question": "学校周边哪家奶茶店最好喝？", "expect": "refuse", "category": "超纲（知识库无）" },
+    { "id": "oos06", "question": "学校操场跑道一圈多少米？", "expect": "refuse", "category": "超纲（知识库无）" },
+    { "id": "oos07", "question": "2025 年学校在广东省的录取分数线是多少？", "expect": "refuse", "category": "超纲（知识库无）" },
+    { "id": "oos08", "question": "学校有校园马拉松比赛吗？", "expect": "refuse", "category": "超纲（知识库无）" },
+    { "id": "oos09", "question": "学校宿舍可以养宠物吗？", "expect": "refuse", "category": "超纲（知识库无）" },
+    { "id": "oos10", "question": "学校食堂的灶台是哪个厂家生产的？", "expect": "refuse", "category": "超纲（知识库无）" }
+  ]
+}

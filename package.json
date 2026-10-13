@@ -1,0 +1,15 @@
+{
+  "name": "campus-smart-qa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "校园智能问答助手（平台内 RAG 后端 + 前端，单端口）",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "build": "npm --prefix frontend run build",
+    "prestart": "node scripts/ensure-build.js",
+    "start": "node backend/server.js",
+    "preview": "npm run build && npm run start",
+    "dev:backend": "node backend/server.js",
+    "dev:frontend": "npm --prefix frontend run dev"
+  }
+}

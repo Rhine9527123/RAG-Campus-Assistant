@@ -1,0 +1,13 @@
+{
+  "name": "campus-qa-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "校园智能问答助手 - 平台内 RAG 后端（知识库检索 + 大模型生成）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

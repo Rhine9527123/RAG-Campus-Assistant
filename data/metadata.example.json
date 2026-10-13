@@ -1,0 +1,10 @@
+{
+  "_format": "documents 数组中每项对应 data/ 下的一个文档：filename=文件名，category=分类，source=来源说明。",
+  "documents": [
+    {
+      "filename": "01_示例指南.txt",
+      "category": "校园概览",
+      "source": "《示例指南》"
+    }
+  ]
+}
